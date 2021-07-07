@@ -1,0 +1,104 @@
+/* HEADER */
+header.section .inner {
+    max-width: none;
+    height: auto;
+}
+
+header.section .main-menu {
+    display: block;
+    float: none;
+}
+
+header.section .logo {
+    padding: 16px;
+}
+
+header.section .menu-item {
+    display: block;
+}
+
+header.section .menu-item li {
+    border-top: 1px solid #e5e5e5;
+    padding: 16px 20px;
+}
+
+header.section .sub-menu {
+    display: block;
+    float: none;
+}
+
+header.section .btn-group {
+    display: block;
+}
+
+header.section .btn-group a {
+    margin: 12px 20px;
+}
+
+header #search-form {
+    margin: 0 20px;
+}
+
+header #search {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+}
+
+header.section .sub-item {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+header #toggle-btn{
+    display: block;
+}
+
+/* VISUAL */
+section.visual__section{
+    background: url(../img/bg-small.jpg);
+    background-position: bottom left;
+    background-size: cover;
+}
+.visual__section .visual__inner {
+    display: block;
+    padding: 80px 0;
+}
+.visual__section .visual__inner .summary{
+    text-align: center;
+    margin: 0 60px;
+}
+.visual__section #sign-up{
+    width: 480px;
+    margin: 40px auto 0 auto;
+}
+
+/* FEATURE */
+section.feature--section .summary{
+    padding: 66px 20px 0 20px;
+}
+section.feature--section .item{
+    width: 50%;
+}
+section.feature--section img{
+    padding: 14px 30% 24px;
+}
+.feature--section .item:nth-child(2){
+    border-right: none;
+}
+
+
+/* WHERE IS */
+section.where-is--section{
+    padding: 80px 20px 0 20px;
+}
+
+/* PRICING CARD */
+section.pricing--section .table .cell2 p{
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer.section .logo{
+    display: none;
+}

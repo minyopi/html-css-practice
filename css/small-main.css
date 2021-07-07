@@ -1,0 +1,64 @@
+/* VISUAL SECTION */
+section.visual__section .visual__inner{
+    max-width: none;
+    margin: 0;
+}
+section.visual__section .summary .title{
+    font-size: 30px;
+}
+section.visual__section .summary .description{
+    font-size: 22px;
+}
+.visual__section #sign-up{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+/* FEATURE */
+section.feature--section .summary h2{
+    font-size: 34px;
+}
+section.feature--section .summary p{
+    font-size: 22px;
+}
+
+
+/* FEATURE */
+section.feature--section .item{
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* WHERE IS */
+.where-is--section .summary .title{
+    font-size: 36px;
+}
+.where-is--section .summary .description{
+    font-size: 22px;
+}
+
+
+/* PRICING CARD */
+section.pricing--section .pricing--inner .table{
+    display: block;
+    height: auto;
+}
+section.pricing--section .table .cell1{
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+    height: 100px;
+    padding: 18px 134px;
+}
+
+
+/* FOOTER */
+footer.section .menu-1,
+footer.section .menu-2{
+    float: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
